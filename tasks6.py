@@ -1,4 +1,4 @@
-
+"""
 #list tasks
 #1) Create a list of 5 student name
 l=['ram', 'rani', "raja",'rohit','sham']
@@ -40,7 +40,7 @@ l=len(list2)
 print(s/l)
 print(s)
 #10) search and element in list.
-
+"""
 
 
 """
@@ -88,4 +88,69 @@ for i in loop:
 """
 
 #Set tasks
-#1)
+#1) Create a set of numbers.
+s={45,47,49,43,41,90,90,41}
+print(s)
+
+#2) Add elements into set.
+ss={3,34,54,65,4,4}
+ss.add(90)
+print(ss)
+
+#3) Remove elements from set.
+se={3,34,54,65,4,4}
+se.remove(3)
+
+#4) Find union of two sets.
+st={3,34,54}
+stt={65,44,47}
+u=st.union(stt)
+print(u)
+
+#5) Find intersection of two sets.
+si={33,44,54}
+sit={65,44,47}
+i=si.intersection(sit)
+print(i)
+
+#6) Find difference between sets.
+sd1={33,44,54}
+sd2={65,44,47}
+d=sd1.difference(sd2)
+print(d)
+
+#7) Remove duplicates from list using set.
+l=[4,3,5,4,6,4,6,6,5,3,23]
+sl=set(l)
+print(sl)
+
+#8) Check subset and superset.
+
+#Subset
+a={1,2,3,4,5,6,7,8,9,10}
+su={6,5,7}
+print(a.issubset(su))
+
+#Superset
+b={1,2,3,5,6,7,8,9,10}
+sp={6,5,7}
+print(b.issuperset(sp))
+
+#9) Find unique vowels in string.
+sf="pytho programming"
+sc=set(sf)
+for i in sc:
+    if i in "AEIOUaeiou":
+        print(i)
+    
+#10) Convert list into set.
+li=[6,5,7,56,6,5,7]
+stt=set(li)
+print(stt)
+
+#Dictionary Tasks
+#1) Create a student dictionary with name and marks.
+#2) Add new key-value pair.
+#3) Update dictionary value.
+#4) Delete an item from dictionary.
+#5) Print all keys and values.

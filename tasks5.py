@@ -41,10 +41,12 @@ if c==0:
 else:
      print("Number of vowels =",c)
 """
+"""
 #6) String palindrome
 n=input("Enter the string:")
 r=n[::-1]
 if n==r:
     print("The give string is palindrome")
 else:
-    
+    print("The give string is not palindrome")
+""" 
